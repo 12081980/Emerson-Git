@@ -1,0 +1,154 @@
+:root{
+    --cor-principal: #fff;   
+    --cor-secundaria2: red;
+    --cor-secundaria3: #181818;
+    --cor-secundaria4: #1e1e1e;
+    --cor-secundaria5:#9333ff ;
+    --cor-secundaria6:indigo;
+    --cor-defundo:#808080;
+    --cor-defundo2:#A9A9A9;
+}
+
+body{
+    background-color: var(--cor-defundo);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size:30px;
+    background-color:var(--cor-defundo);
+    color:var(--cor-principal);
+    font-family: 'Lobster', cursive;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+nav ul li{
+    text-align: center;
+    
+    
+}
+nav ul li a{
+    display: inline-block;
+    padding: 10px;   
+    text-decoration: none;
+    transition: 0.5s; 
+    color: var(--cor-principal);
+   }
+   a:hover {
+    font-size: 33px;
+    color:var(--cor-secundaria6);
+   
+   }
+   
+   
+
+   #logo{
+    color:whitesmoke;
+    background-color:#CD853F;
+    text-align: center;
+    border: 4px solid white;
+    font-size: 35px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: invert(25%);
+    }
+
+    .container{
+        display: flex;
+        justify-items: center;
+               width: 95%;
+              padding: 45px;
+             
+
+    }
+.bloco{
+    float: left;
+    width: 96%;
+    height: 300px;
+    margin-left: 2%;
+    margin-bottom: 25px;
+
+padding: 15px;
+
+}
+
+
+
+   @media only screen and (min-width: 769px){
+.bloco{
+    justify-content: center;
+    float: left;
+    width: 45%;
+    height: 300px;
+    margin-left: 0%;
+    margin-right: 3%;
+    margin-bottom: 25px;
+   
+
+}
+
+.menulateral{
+    padding: 20px;
+
+}
+/* #lateral a:hover{ */
+    /* font-size: 33px; */
+   
+ 
+}
+   /* } */
+#lateral a{
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.2s; 
+    color:var(--cor-principal);
+    font-family: 'Lobster', cursive;
+    transition: 0.5s; 
+}
+ #lateral a:hover {
+    font-size: 33px;
+    color:var(--cor-secundaria6);
+ }
+   
+
+span{
+    padding-top: 5px;
+}
+.carrossel{
+    box-shadow: 4px 4px 6px black;
+    overflow: hidden;
+    width: 450px;
+    height: 450px;
+}
+.conteiner{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+img{
+    object-fit: cover;
+    height: 450px;
+    width: 450px;
+}
+.modas{
+   display: flex;
+  flex-direction: column;
+
+}
+p{
+    color: aliceblue;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-padding: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+:root{
+    --cor-principal: #fff;   
+    --cor-secundaria2: red;
+    --cor-secundaria3: #181818;
+    --cor-secundaria4: #1e1e1e;
+    --cor-secundaria5:#9333ff ;
+    --cor-secundaria6:indigo;
+
+    --cor-defundo:#808080;
+    --cor-defundo2:#A9A9A9;
+    
+}
+img{
+    width: 100%;
+}
+body{
+    background-color: var(--cor-defundo);
+}
